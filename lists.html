@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Lists</title>
+    <style>
+   .book {
+    list-style-image: url(img/book.jpg);
+   }
+  </style>
 </head>
 <body>
+   <svg version="1.1"
+     baseProfile="full"
+     width="300" height="200"
+     xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="black" />
+  <circle cx="150" cy="100" r="90" fill="blue" />
+</svg>
+    <ul class="book">
+   <li>Lorem ipsum dolor sit amet</li>
+   <li>Consectetuer adipiscing elit</li>
+   <li>Sed diem nonummy nibh euismod</li>
+   <li>Tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis 
+   enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit lobortis 
+   nisl ut aliquip ex ea commodo consequat.</li>
+  </ul>
    <h2>Unordered List with Square Bullets</h2>
 
 <ul style="list-style-type:disk">
@@ -107,5 +127,23 @@
   <li>Tea</li>
   <li>Milk</li>
 </ol>
+<style>
+div {
+  background-color: #eee;
+  width: 300px;
+  height: 100px;
+  border: 3px dotted black;
+  overflow: scroll;
+  float: left;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Overflow</h2>
+<p>Setting the overflow value to scroll, the overflow is clipped and a scrollbar is added to scroll inside the box. Note that this will add a scrollbar both horizontally and vertically (even if you do not need it):</p>
+
+<div>You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
 </body>
 </html>

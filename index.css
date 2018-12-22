@@ -1,0 +1,182 @@
+.container {
+    widows: 980px;
+}
+.header {
+    height: 250px;
+    width: 100%;
+    background-color: pink;
+}
+.white {
+    background-color: white;
+    width: 80%;
+    height: 160px;
+    margin: 0 auto;
+    padding-top: 35px;
+ 
+}
+p {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.black {
+    width: 60%;
+    background-color: black;
+    height: 60px;
+    margin: 0 auto;
+}
+.black_line {
+    width: 100%;
+    background-color: black;
+    min-height: 10px;
+}
+.main {
+    height: 150px;
+}
+.red,
+.yellow,
+.pink,
+.green {
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+.main_blocks {
+    height: 300px;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: orange;
+}
+.pink {
+    background-color: pink;
+}
+.green {
+ background-color: green;
+}
+.left_block {
+    background-color: green;
+    width: 33.3%;
+    height: 300px;
+    float: left;
+}
+.left_orange {
+    height: 90px;
+    background-color: orange;
+   margin: 0 auto;
+}
+.left_red {
+    background-color: red;
+    width: 50%;
+    height: 110px;
+    float: left;
+}
+.middle_left {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.left_pink {
+     background-color: pink;
+    width: 50%;
+    height: 110px;
+    float: left;
+}
+.central {
+    width: 33.3%;
+    height: 300px;
+    float: left;
+}
+.top {
+    background-color: red;
+    height: 40%;
+    
+}
+.bottom {
+    height: 60%;
+    width: 100%;
+}
+.left_center {
+    background-color: blue;
+    height: 100%;
+    width: 33.3%;
+    float: left;
+  
+}
+.center_center {
+    height: 100%;
+    background-color: orange;
+     width: 33.3%;
+    float: left;
+}
+.right_center {
+    background-color: green;
+    width: 33.4%;
+    float: left;
+    height: 100%;
+}
+.sub_left {
+    background-color: red;
+    width: 50%;
+    height: 80%;
+    margin: auto 0;
+    float: left;
+}
+.sub_right {
+    background-color: pink;
+    width: 50%;
+    height: 60%;
+    margin: auto 0;
+    float: left;
+}
+.right_block {
+     width: 33.3%;
+    height: 300px;
+    float: left;
+    background-color: blue;
+}
+.white_block {
+    width: 33%;
+    background-color: white;
+    height: 60%;
+    margin-top: 24%;
+    float: left;
+}
+.orange_block {
+    width: 33%;
+    background-color: orange;
+    height: 60%;
+    margin-top: 20%;
+    float: left;
+}
+.pink_block {
+     width: 33%;
+    background-color: pink;
+    height: 60%;
+    margin-top: 10%;
+    float: left;
+}
+.right_text {
+    background-color: black;
+    color: white;
+    text-align: left;
+  
+    display: inline;
+    float: right;
+    width: 30px;
+}
+.left_text {
+    background-color: black;
+    color: white;
+    text-align: right;
+    margin-top: 60px;
+    display: inline;
+    width: 30px;
+}
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
